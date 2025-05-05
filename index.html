@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-preview-card-component-main</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img
+          src="./images/image-product-mobile.jpg"
+          alt="a sweetly perfume"
+          srcset="
+            ./images/image-product-desktop.jpg 1x,
+            ./images/image-product-mobile.jpg  1x
+          "
+          width="100%"
+        />
+        <div class="content">
+          <h3>Perfume</h3>
+          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="salary">
+            <p>
+              <strong>$149.99</strong> <sup><del>169.99</del></sup>
+            </p>
+            <button type="submit">
+              <img src="./images/icon-cart.svg" alt="card icon">
+              Add to card</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
